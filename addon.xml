@@ -1,0 +1,18 @@
+<addon id="ipcheck.autoexec"
+       name="IP Check Nam"
+       version="1.0.6"
+       provider-name="lowe493">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+
+    <extension point="xbmc.service" library="autoexec.py"/>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Displays your external IP on startup</summary>
+        <description>Checks and shows VPN Status when Kodi starts and every 10 mins afterwards.</description>
+        <platform>all</platform>
+    </extension>
+
+</addon>
