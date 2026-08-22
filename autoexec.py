@@ -52,7 +52,7 @@ def show_notification(title, message, warning=False):
 # VPN RULE
 # =========================
 def is_unprotected_isp(isp):
-    return isp.strip().lower() == "british"
+    return isp.strip().lower() == "British Telecommunications Limited"
 
 
 # =========================
